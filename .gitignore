@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Project artefacts (kept on HF Hub instead)
+ckpt_*/
+outputs/
+swanlog/
+logs/
+log/
+data/
+data_*/
+sft_model/
+*.history/
+
+# Misc
+.env
+.envrc
