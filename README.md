@@ -53,8 +53,8 @@ tests/test_rl_pipeline.py            Sanity-check for the RL pipeline
 
 | Asset | HF Hub | Description |
 |-------|--------|-------------|
-| **Phase 3 (Switch-GRPO) LoRA** | TBA | Paper-final checkpoint: 79.3 % MATH-500, 89.2 % GSM8K on Qwen3-8B |
-| **Math training set** | TBA | OpenR1-Math subset annotated with `<swi>/</swi>` boundaries + GRPO rollout prompts |
+| **Phase 3 (Switch-GRPO) LoRA** | [🤗 LARK-Lab/SWITCH-Phase3-GRPO-LoRA-Qwen3-8B](https://huggingface.co/LARK-Lab/SWITCH-Phase3-GRPO-LoRA-Qwen3-8B) | Paper-final checkpoint: 79.3 % MATH-500, 89.2 % GSM8K on Qwen3-8B |
+| **Math training set** | [🤗 LARK-Lab/SWITCH-Math-Train](https://huggingface.co/datasets/LARK-Lab/SWITCH-Math-Train) | OpenR1-Math subset annotated with `<swi>/</swi>` boundaries + GRPO rollout prompts |
 
 (Intermediate Phase 1 / Phase 2 trajectories and mechanistic-analysis raw
 outputs are kept for reproducibility but not part of the public release.)
@@ -77,7 +77,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 BASE    = "Qwen/Qwen3-8B"
-ADAPTER = "LARK-Lab/SWITCH-Phase3-GRPO-LoRA-Qwen3-8B"   # public release
+ADAPTER = "<HF-ORG>/SWITCH-Phase3-GRPO-LoRA-Qwen3-8B"   # public release
 
 # Tokenizer ships with <swi>, </swi>, <latent> already registered.
 tokenizer = AutoTokenizer.from_pretrained(ADAPTER)
