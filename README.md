@@ -6,6 +6,8 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](#)  [![Models](https://img.shields.io/badge/🤗-Models-yellow.svg)](#-released-artefacts)  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+<img src="assets/overview.png" alt="SWITCH overview" width="92%"/>
+
 </div>
 
 **SWITCH** is a switchable latent chain-of-thought framework that combines
