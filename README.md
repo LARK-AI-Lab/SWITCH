@@ -4,7 +4,7 @@
 
 ### Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](#)  [![Models](https://img.shields.io/badge/🤗-Models-yellow.svg)](#-released-artefacts)  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.13106-b31b1b.svg)](https://arxiv.org/abs/2606.13106)  [![Models](https://img.shields.io/badge/🤗-Models-yellow.svg)](#-released-artefacts)  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 <img src="assets/overview.png" alt="SWITCH overview" width="92%"/>
 
@@ -140,10 +140,13 @@ python scripts/interpret_swi.py logit-lens      --adapter_path <CKPT>
 
 ```bibtex
 @misc{switch2026,
-  title  = {Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning},
-  author = {Anonymous},
-  year   = {2026},
-  note   = {Preprint}
+  title         = {Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning},
+  author        = {Anonymous},
+  year          = {2026},
+  eprint        = {2606.13106},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2606.13106}
 }
 ```
 
