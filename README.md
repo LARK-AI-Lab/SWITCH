@@ -139,13 +139,13 @@ python scripts/interpret_swi.py logit-lens      --adapter_path <CKPT>
 ## Citation
 
 ```bibtex
-@misc{switch2026,
+@misc{yang2026demystifyinghiddenstaterecurrenceswitchable,
   title         = {Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning},
-  author        = {Anonymous},
+  author        = {Jiayu Yang and Chao Chen and Shengen Wu and Yinhong Liu and Yuxuan Fan and Lujundong Li and Songning Lai and Chengwei Qin and Zhijiang Guo},
   year          = {2026},
   eprint        = {2606.13106},
   archivePrefix = {arXiv},
-  primaryClass  = {cs.CL},
+  primaryClass  = {cs.LG},
   url           = {https://arxiv.org/abs/2606.13106}
 }
 ```
